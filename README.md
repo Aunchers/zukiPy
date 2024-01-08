@@ -10,7 +10,9 @@ To install `zukiPy`, simply run:
 ```python
 pip install zukiPy
 ```
-
+```python
+#not available atm. you can currently use it by downloading the folder into your project. Will be added to PyPi in the future
+```
 ## Usage
 
 Here's an example of how to use `zukiPy`:
