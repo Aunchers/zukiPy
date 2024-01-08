@@ -2,7 +2,7 @@ import zukiPy
 import asyncio
 import os
 
-api_key = os.environ['APIKEY']
+api_key = "" # Get your API key @ discord.gg/zukijourney
 zukiAI = zukiPy.zukiCall(api_key)
 
 
