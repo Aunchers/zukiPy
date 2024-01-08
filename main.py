@@ -1,4 +1,4 @@
-import zukipy
+import zukiPy
 import asyncio
 import os
 
