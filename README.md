@@ -1,28 +1,28 @@
 
-# zukipy
+# zukiPy
 
-`zukipy` is a Python wrapper for the `zukijourney` API. The wrapper is made by **1_aunchers**, heavily referencing the `zukijs` wrapper by **Saberstexx**.
+`zukiPy` is a Python wrapper for the `zukijourney` API. The wrapper is made by **1_aunchers**, heavily referencing the `zukijs` wrapper by **Saberstexx**.
 
 ## Installation
 
-To install `zukipy`, simply run:
+To install `zukiPy`, simply run:
 
 ```python
-pip install zukipy
+pip install zukiPy
 ```
 ```python
 #not available atm. you can currently use it by downloading the folder into your project. Will be added to PyPi in the future
 ```
 ## Usage
 
-Here's an example of how to use `zukipy`:
+Here's an example of how to use `zukiPy`:
 
 ```python
-import zukipy
+import zukiPy
 import asyncio
 
 api_key ="{your-api-key}" #Get your API key from discord.gg/zukijourney
-zukiAI = zukipy.zukiCall(api_key)
+zukiAI = zukiPy.zukiCall(api_key)
 
 
 async def main():
@@ -36,6 +36,6 @@ asyncio.run(main())
 
 ## Credits
 
-- `zukipy` wrapper: **1_aunchers**
+- `zukiPy` wrapper: **1_aunchers**
 - `zukijs` wrapper: **Saberstexx**
 - `zukijourney` API: **zukixa**
