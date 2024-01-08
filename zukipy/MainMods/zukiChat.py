@@ -1,5 +1,5 @@
 import requests
-from zukiPy.SubMods.zukiChatCall import ZukiChatCall
+from zukipy.SubMods.zukiChatCall import ZukiChatCall
 class zukiChat:
   def __init__(self, api_key, model = "gpt-3.5", systemPrompt = "You are a helpful assistant.", temperature = 0.7):
     self.api_key = api_key
