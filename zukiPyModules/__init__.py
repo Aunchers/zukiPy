@@ -1,5 +1,5 @@
-from zukiPy.MainMods.zukiChat import zukiChat
-from zukiPy.MainMods.zukiImage import zukiImage
+from zukiPyModules.MainMods.zukiChat import zukiChat
+from zukiPyModules.MainMods.zukiImage import zukiImage
 
 class zukiCall:
   def __init__(self, api_key, model="gpt-3.5"):

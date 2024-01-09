@@ -1,4 +1,4 @@
-from zukiPy.SubMods.zukiChatCall import ZukiChatCall
+from zukiPyModules.SubMods.zukiChatCall import zukiChatCall
 
 class zukiChat:
 
@@ -30,9 +30,10 @@ class zukiChat:
       raise ValueError("Temperature must be between 0 and 1")
 
   async def sendMessage(self, userName, userMessage):
-    return await ZukiChatCall(self.api_key).chatcall(userName, userMessage, self.model, self.systemPrompt, self.temperature, self.api_endpoint)
+    return await zukiChatCall(self.api_key).chatcall(userName, userMessage, self.model, self.systemPrompt, self.temperature, self.api_endpoint)
+
   async def sendUnfilteredMessage(self, userName, userMessage):
-    return await ZukiChatCall(self.api_key).chatcall(userName, userMessage, self.model, self.systemPrompt, self.temperature, self.api_endpoint_unfiltered)
+    return await zukiChatCall(self.api_key).chatcall(userName, userMessage, self.model, self.systemPrompt, self.temperature, self.api_endpoint_unfiltered)
 
 
 

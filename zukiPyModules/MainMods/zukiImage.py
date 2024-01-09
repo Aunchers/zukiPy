@@ -1,4 +1,4 @@
-from zukiPy.SubMods.zukiImageCall import zukiImageCall
+from zukiPyModules.SubMods.zukiImageCall import zukiImageCall
 
 class zukiImage:
   def __init__(self, api_key):
