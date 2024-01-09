@@ -1,5 +1,6 @@
 import requests
 import json
+
 class ZukiChatCall:
   def __init__(self, api_key):
     self.api_key = api_key

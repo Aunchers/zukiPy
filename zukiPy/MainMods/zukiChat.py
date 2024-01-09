@@ -1,6 +1,7 @@
-import requests
 from zukiPy.SubMods.zukiChatCall import ZukiChatCall
+
 class zukiChat:
+
   def __init__(self, api_key, model = "gpt-3.5", systemPrompt = "You are a helpful assistant.", temperature = 0.7):
     self.api_key = api_key
     self.api_endpoint = "https://zukijourney.xyzbot.net/v1/chat/completions"
@@ -8,6 +9,7 @@ class zukiChat:
 
     self.systemPrompt = systemPrompt
     modelsList = ['gpt-3.5', 'gpt-3.5-turbo', 'gpt-3.5-4k', 'gpt-3.5-16k', 'gpt-4', 'gpt-4-4k', 'gpt-4-16k', 'claude-2']
+
     if (model in modelsList):
         self.model = model
     else:
