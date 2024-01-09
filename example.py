@@ -16,4 +16,4 @@ async def main():
 # You also need to run the async function
 asyncio.run(main())
 
-#Hey 1_aunchers(creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://replit.com/Sabsterrexx2
+#Hey 1_aunchers(creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://github.com/Sabsterrexx
