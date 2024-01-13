@@ -1,4 +1,4 @@
-from zukiPyModules.SubMods.zukiChatCall import zukiChatCall
+from zukiPy.SubMods.zukiChatCall import zukiChatCall
 
 
 class zukiChat:
