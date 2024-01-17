@@ -1,5 +1,4 @@
-from setuptools import setup, find_packages
-
+from setuptools import setup
 
 setup(
     name='zukiPy',
@@ -7,6 +6,6 @@ setup(
     description='A Python wrapper for zukijourney',
     author='1_aunchers',
     author_email='1_aunchers@proton.me',
-    packages=find_packages(),
+    packages=['zukiPy', 'zukiPy.MainMods', 'zukiPy.SubMods'],
     url='https://github.com/Launchers-1/zukiPy',
 )
