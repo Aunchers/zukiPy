@@ -1,7 +1,7 @@
 import zukiPy
 import asyncio
 
-api_key = ""  # Get your API key @ https://discord.gg/zukijourney
+api_key = "zu-ab6395a778f2341bac302c3efabe40e0"  # Get your API key @ https://discord.gg/zukijourney
 api_key_backup = "" # Set this to your backup API key (optional, usually for testing with different LLM APIs)
 zukiAI = zukiPy.zukiCall(api_key, api_key_backup, "gpt-3.5-turbo")
 
@@ -20,5 +20,5 @@ async def main():
 # You also need to run the async function:
 asyncio.run(main())
 
-# Hey, 1_aunchers(creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://github.com/Sabsterrexx
+# Hey, 1_aunchers (creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://github.com/Sabsterrexx
 # WARNING: The default backup endpoint is currently WebRaft, which is currently UNSTABLE. Change your backup 
