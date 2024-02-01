@@ -6,9 +6,6 @@
 ## Installation
 
 To install `zukiPy`, simply run:
-
-(DISCLAIMER: Currently pip install is broken, idk why. To use, install the folder on github [here](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/Launchers-1/zukiPy/tree/main/zukiPy) , and use the folder within the zip in your project directory)
-
 ```python
 pip install git+https://github.com/Launchers-1/zukipy
 ```
