@@ -20,5 +20,6 @@ async def main():
 # You also need to run the async function:
 asyncio.run(main())
 
-# Hey, 1_aunchers(creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://github.com/Sabsterrexx
-# WARNING: The default backup endpoint is currently WebRaft, which is currently UNSTABLE. Change your backup 
+# Hey, 1_aunchers (creator of this) here. This is made by heavily referencing Sabsterrexx. You can find him @ https://github.com/Sabsterrexx
+# WARNING: The default backup endpoint is currently WebRaft, which is currently UNSTABLE. Change your backup endpoint using .change_backup_endpoint() on .zuki_chat
+# and .zuki_image

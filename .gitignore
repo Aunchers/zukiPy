@@ -2,3 +2,4 @@ __pycache__
 zukiPy.egg-info/
 dist/
 build/
+tests.py

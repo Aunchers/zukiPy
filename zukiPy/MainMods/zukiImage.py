@@ -15,14 +15,14 @@ class zukiImage:
         self.api_endpoint_backup = endpoint
 
     async def generateImage(self, prompt, generations=1, size=250):
-        imgUrl = await self.api_caller.image_call(prompt, generations, self.api_endpoint, model="SDXL", negative_prompt="", width=1024, height=1024)
+        imgUrl = await self.api_caller.image_call(prompt, generations, self.api_endpoint, model="sdxl", negative_prompt="", width=1024, height=1024)
         if "details" in str(imgUrl):
             return ValueError(imgUrl)
         else:
             return imgUrl
 
     async def generateImageBackup(self, prompt, generations=1, size=250):
-        imgUrl = await self.api_caller_backup.image_call(prompt, generations, self.api_endpoint_backup, model="SDXL", negative_prompt="", width=1024, height=1024)
+        imgUrl = await self.api_caller_backup.image_call(prompt, generations, self.api_endpoint_backup, model="sdxl", negative_prompt="", width=1024, height=1024)
         if "details" in str(imgUrl):
             return ValueError(imgUrl)
         else:
