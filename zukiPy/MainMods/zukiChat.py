@@ -12,8 +12,7 @@ class zukiChat:
         self.api_endpoint_backup = 'https://thirdparty.webraft.in/v1/chat/completions'
 
         self.systemPrompt = systemPrompt
-        modelsList = ['gpt-3.5', 'gpt-3.5-turbo', 'gpt-3.5-4k',
-                      'gpt-3.5-16k', 'gpt-4', 'gpt-4-4k', 'gpt-4-16k', 'claude-2']
+        modelsList = ['gpt-3.5-turbo', 'gpt-3.5-turbo-instruct', 'gpt-3.5-turbo-16k', 'gpt-4', 'gpt-4-32k', 'gpt-4-1106-preview', 'gpt-4-0125-preview', 'gpt-4-vision-preview', 'claude', 'claude-2', 'claude-2.1', 'claude-instant-v1', 'claude-instant-v1-100k', 'pplx-70b-online', 'palm-2', 'bard', 'gemini-pro', 'gemini-pro-vision', 'mixtral-8x7b', 'mixtral-8x7b-instruct', 'mistral-tiny', 'mistral-small', 'mistral-medium', 'mistral-7b-instruct', 'codellama-7b-instruct', 'llama-2-7b', 'llama-2-70b-chat', 'mythomax-l2-13b-8k', 'sheep-duck-llama', 'goliath-120b', 'nous-llama2', 'yi-34b', 'openchat', 'solar10-7b', 'pi']
 
         self.api_key_backup = api_key_backup
 
