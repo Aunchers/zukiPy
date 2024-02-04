@@ -3,7 +3,7 @@ from zukiPy.SubMods.zukiChatCall import zukiChatCall
 
 class zukiChat:
 
-    def __init__(self, api_key, api_key_backup="", model="gpt-3.5", systemPrompt, temperature):
+    def __init__(self, api_key, api_key_backup="", model="gpt-3.5", systemPrompt="", temperature=""):
         self.api_key = api_key
         self.api_endpoint = "https://zukijourney.xyzbot.net/v1/chat/completions"
         self.api_endpoint_unfiltered = "https://zukijourney.xyzbot.net/unf/chat/completions"
