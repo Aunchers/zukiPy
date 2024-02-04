@@ -34,6 +34,6 @@ class zukiChatCall:
 
                 data=json.dumps(self.chat_data(userName, userMessage, requestedModel, systemPrompt, currTemp)))
             responseData = response.json()
-            return responseData['choices'][0]['message']['content']
+            return responseData
         except Exception as e:
             print(f"An error occurred: {e}")
