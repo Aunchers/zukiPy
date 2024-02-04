@@ -3,7 +3,7 @@ from zukiPy.MainMods.zukiImage import zukiImage
 
 
 class zukiCall:
-    def __init__(self, api_key, api_key_backup="", model="gpt-3.5"):
+    def __init__(self, api_key, api_key_backup="", model="gpt-3.5-turbo"):
         self.api_key = api_key
         self.api_key_backup = api_key_backup
         self.model = model
