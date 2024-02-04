@@ -7,5 +7,7 @@ class zukiCall:
         self.api_key = api_key
         self.api_key_backup = api_key_backup
         self.model = model
-        self.zuki_chat = zukiChat(api_key, api_key_backup, model)
+        self.systemPrompt = systemPrompt
+        self.temperature = temperature
+        self.zuki_chat = zukiChat(api_key, api_key_backup, model, systemPrompt, temperature)
         self.zuki_image = zukiImage(api_key, api_key_backup)
