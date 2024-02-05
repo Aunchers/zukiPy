@@ -3,6 +3,7 @@ import asyncio
 
 api_key = ""  # Get your API key @ https://discord.gg/zukijourney
 api_key_backup = "" # Set this to your backup API key (optional, usually for testing with different LLM APIs)
+# You can set up your API backup key by calling zukiAI.change_backup_key(api_key_backup)
 zukiAI = zukiPy.zukiCall(api_key, "gpt-3.5-turbo")
 
 
