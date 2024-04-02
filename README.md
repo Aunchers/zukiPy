@@ -29,7 +29,7 @@ async def main():
 # You also need to run the async function
 asyncio.run(main())
 ```
-
+For more details, visit the [wiki](https://github.com/Launchers-1/zukiPy/wiki)
 ## Credits
 
 - `zukiPy` wrapper: **1_aunchers**
