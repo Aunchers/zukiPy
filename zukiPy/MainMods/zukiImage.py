@@ -5,7 +5,7 @@ class zukiImage:
 
     def __init__(self, api_key, api_key_backup=""):
         self.api_key = api_key
-        self.api_endpoint = "https://zukijourney.xyzbot.net/v1/images/generations"
+        self.api_endpoint = "https://api.zukijourney.com/v1/images/generations"
         self.api_endpoint_backup = "https://api.webraft.in/api/images/generations"
         self.api_caller = zukiImageCall(self.api_key)
         self.api_key_backup = api_key_backup
