@@ -5,8 +5,8 @@ class zukiChat:
 
     def __init__(self, api_key, api_key_backup="", model="gpt-3.5", systemPrompt="", temperature=""):
         self.api_key = api_key
-        self.api_endpoint = "https://zukijourney.xyzbot.net/v1/chat/completions"
-        self.api_endpoint_unfiltered = "https://zukijourney.xyzbot.net/unf/chat/completions"
+        self.api_endpoint = "https://api.zukijourney.com/v1/chat/completions"
+        self.api_endpoint_unfiltered = "https://api.zukijourney.com/unf/chat/completions"
         # A backup endpoint, if appplicable. Usually meant to utilize another API. By default it's set to the WebRaft API due to its rate limit being ideal for testing purposes.
         # Get key @https://discord.gg/XwxUdHhF59
         self.api_endpoint_backup = 'https://thirdparty.webraft.in/v1/chat/completions'
